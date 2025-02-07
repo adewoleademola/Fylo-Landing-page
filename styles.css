@@ -1,0 +1,285 @@
+body{
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 2%;
+}
+.navbar li{
+    margin: 20px;
+    list-style-type: none;
+    font-family: 'Bahnschrift', sans-serif;
+    font-weight: 200;
+}
+.navbar a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar img{
+    width: 10%;
+    margin: 25px;
+    margin-left: 3%;
+}
+.features-page{
+    margin: 25px;
+    margin-left: 3%;
+}
+
+#features{
+    display: flex;
+}
+#features img{
+    width: 40%;
+    position: absolute;
+    left: 55%;
+}
+.features-page h1{
+    width: 40%;
+    font-size: 32px;
+    font-family: 'Bahnschrift', sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+.features-page p{
+    width: 45%;
+    color: #000;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.features-page input{
+    width: 20%;
+    padding: 7px;
+    border: 2px solid #f1eeee;
+    background: none;
+}
+.features-page button{
+    padding: 7px;
+    width: 15%;
+    background: #2f65fd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Bahnschrift', sans-serif;
+}
+#team{
+    display: flex;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 680px;
+    background: #f9f8fe;
+}
+
+.team-page{
+    margin: 25px;
+    margin-left: 3%;
+}
+.team-page img{
+    position: absolute;
+    top: -60px;
+    height: 100px;
+    width: 95%;
+}
+.team-background img{
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 55%; 
+}
+.team-illustration{
+    position: absolute;
+    top: 10%;
+}
+.team-illustration h1{
+    font-size: 32px;
+    font-family: 'Bahnschrift', sans-serif;
+    font-weight: bold;
+    color: #000;
+}   
+.team-illustration p{
+    width: 60%;
+    color: #000;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.team-illustration a{
+    color: #6A9B95;
+}
+.team-illustration a:hover{
+    text-decoration: underline;
+    color: #D0FDFA;
+    transition: all 1s ease-out;
+}
+.team-comment{
+    position: absolute;
+    top: 45%;
+    margin: 25px;
+    margin-left: 3%;
+    width: 300px;
+    height: 170px;
+    padding: 20px;
+    background: #fff;
+}
+.team-comment p{
+    font-size: 15px;
+    font-family: 'Bahnschrift', sans-serif;
+    font-weight: 400;
+}
+.team-comment img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    top: 70%;
+    left: 22%;
+       
+}
+.content p{
+    position: relative;
+    bottom: 20px;
+    font-weight: 200;
+    font-family: 'Bahnschrift', sans-serif;
+}
+.content h3{
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 16px;
+}
+#sign{
+    position: absolute;
+    background: #575989;
+    width: 100%;
+    height: 300px;
+    top: calc(100% + 650px);
+    display: flex;
+}
+.sign-page{
+    margin: 80px auto;
+    margin-left: 3%;
+}
+.sign-page h1{
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+.sign-page p{
+    width: 47%;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.sign-in{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+.sign-in input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.sign-in button{
+    padding: 10px;
+    background: #3463f9;
+    border: none;
+    color: #fff;
+    width: 55%;
+    cursor: pointer;
+    font-family: 'Bahnschrift', sans-serif;
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background: #07043b;
+    position: absolute;
+    top: calc(100% + 950px);
+}
+footer .img1{
+    margin: 80px auto;
+    margin-left: 3%;
+}
+.phone-number{
+    display: flex;
+    margin: 50px;
+    position: absolute;
+    top: 20%;
+
+}
+.email{
+    display: flex;
+    margin: 50px;
+    position: absolute;
+    top: 30%;
+}
+.phone-number img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 18px;
+}
+.phone-number p{
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Calibri', sans-serif;
+
+}
+.email img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+}
+.email p{
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Calibri', sans-serif;
+
+}
+.footer-links{
+    position: absolute;
+    top: 32%;
+    left: 30%;
+}
+.footer-links li{
+    margin: 25px;
+    list-style-type: none;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+}
+.footer-move-right{
+    position: absolute;
+    top: 32%;
+    left: 52%;   
+}
+.footer-move-right li{
+    margin: 25px;
+    list-style-type: none;
+}
+.footer-move-right a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+}
+.team-comment .img2{
+    width: 30px;
+    height: 30px;
+}
